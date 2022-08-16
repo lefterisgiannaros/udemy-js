@@ -18,22 +18,39 @@
 
 // console.log(typeof javascriptIsFun);
 
-const age = 15;
+// const age = 15;
 
-if (age >= 18){
-    console.log('Sarah can start driving license');
+// if (age >= 18){
+//     console.log('Sarah can start driving license');
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log(`Sarah is too young. Wait another ${yearsLeft} years.`)
+// }
+
+// const birthYear = 1993;
+// let century;
+
+// if(birthYear <= 2000){
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+
+// console.log(`This person was born in the ${century}s`)
+
+// 24. LOGICAL OPERATORS
+const hasDriversLicence = true; //A
+const hasGoodVision = true; //B
+const isTired = false // C
+
+console.log(hasDriversLicence && hasGoodVision);
+console.log(hasDriversLicence || hasGoodVision);
+console.log(!hasDriversLicence);
+
+const shouldDrive = hasDriversLicence && hasGoodVision;
+
+if (hasDriversLicence && hasGoodVision && !isTired) {
+    console.log('Sarah is able to drive!')
 } else {
-    const yearsLeft = 18 - age;
-    console.log(`Sarah is too young. Wait another ${yearsLeft} years.`)
+    console.log('Someone else should drive')
 }
-
-const birthYear = 1993;
-let century;
-
-if(birthYear <= 2000){
-    century = 20;
-} else {
-    century = 21;
-}
-
-console.log(`This person was born in the ${century}s`)
