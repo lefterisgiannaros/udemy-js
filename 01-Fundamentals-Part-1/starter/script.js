@@ -39,18 +39,28 @@
 // console.log(`This person was born in the ${century}s`)
 
 // 24. LOGICAL OPERATORS
-const hasDriversLicence = true; //A
-const hasGoodVision = true; //B
-const isTired = false // C
+// const hasDriversLicence = true; //A
+// const hasGoodVision = true; //B
+// const isTired = false // C
 
-console.log(hasDriversLicence && hasGoodVision);
-console.log(hasDriversLicence || hasGoodVision);
-console.log(!hasDriversLicence);
+// console.log(hasDriversLicence && hasGoodVision);
+// console.log(hasDriversLicence || hasGoodVision);
+// console.log(!hasDriversLicence);
 
-const shouldDrive = hasDriversLicence && hasGoodVision;
+// const shouldDrive = hasDriversLicence && hasGoodVision;
 
-if (hasDriversLicence && hasGoodVision && !isTired) {
-    console.log('Sarah is able to drive!')
-} else {
-    console.log('Someone else should drive')
-}
+// if (hasDriversLicence && hasGoodVision && !isTired) {
+//     console.log('Sarah is able to drive!')
+// } else {
+//     console.log('Someone else should drive')
+// }
+
+
+// 28. THE CONDITIONAL (TERNARY) OPERATOR
+
+// const age = 17;
+// const drink = age >= 18 ? 'Wine' : 'water';
+// console.log(drink);
+
+// console.log(`I like to drink ${age >=18 ? 'wine' : 'water'}`);
+
