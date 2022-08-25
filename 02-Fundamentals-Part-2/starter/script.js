@@ -14,20 +14,26 @@
 // 34. FUNCTION DECLARATIONS VS EXPRESSIONS
 
 // Function declaration
-function calcAge1(currentYear, birthYear){
-    return currentYear - birthYear;
-}
-const age1 = calcAge1(2022,1993);
-console.log(age1);
+// function calcAge1(currentYear, birthYear){
+//     return currentYear - birthYear;
+// }
+// const age1 = calcAge1(2022,1993);
+// console.log(age1);
 
 
-// Function expression
-const age2 = function (currentYear, birthYear){
-    return currentYear - birthYear;
-}
+// // Function expression
+// const age2 = function (currentYear, birthYear){
+//     return currentYear - birthYear;
+// }
 
-console.log(age2(2022,1993));
+// console.log(age2(2022,1993));
 
 
-// Arrow expression
-const calcAge3 = birthYear => currentYear - birthYear;
+// // Arrow expression
+// const calcAge3 = birthYear => currentYear - birthYear;
+
+
+
+// 39. ARRAYS
+const firstName = 'Jonas';
+const jonas = [firstName, 'test']
