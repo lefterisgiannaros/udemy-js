@@ -35,5 +35,27 @@
 
 
 // 39. ARRAYS
-const firstName = 'Jonas';
-const jonas = [firstName, 'test']
+// const firstName = 'Jonas';
+// const jonas = [firstName, 'test']
+
+// 44. Object Methods
+//"Jonas is a 46-year old teacher and he has a driver's license"
+
+const person = {
+    firstName: 'jonas',
+    lastName: 'lastjonas',
+    birthYear: '1976',
+    hasLicense: true,
+
+    calcAge: function(){
+        return this.age = 2022 - this.birthYear;
+    },
+
+    calcDriver: function(){
+        if(this.hasLicense == true){
+            return "has a driver's license"
+        }   else return "can't drive"
+    }   
+};
+
+console.log(`${person.firstName} is a ${person.calcAge()} year old person and ${person.calcDriver()}`)
